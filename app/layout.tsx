@@ -5,10 +5,17 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: "Park the Bus — Sponsorship & Team Presentation",
+  description:
+    "Park the Bus is an amateur mini football team from Varna with nearly a decade of history, a famous party bus, and big ambitions. Learn more about our journey, achievements, and sponsorship opportunities.",
+  generator: "Next.js",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 }
+
 
 export default function RootLayout({
   children,
